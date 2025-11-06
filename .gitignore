@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+.nox/
+.mypy_cache/
+.vscode/
+.idea/
+*.egg-info/
+build/
+dist/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+# *.ipynb
+# !*.ipynb # Uncomment this line if you want to explicitly include .ipynb files
