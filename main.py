@@ -1,16 +1,20 @@
-# This is a sample Python script.
+"""NLP Course — informational script.
 
-# Press Ctrl+F5 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+This small script is a convenience entrypoint that prints a short description
+of the repository and how to run the notebooks. The canonical content lives
+inside the Jupyter notebooks (`01_*.ipynb` .. `10_*.ipynb`).
+"""
+
+def print_project_info():
+    """Print a short description and quick-start commands for the course."""
+    print("NLP Course — collection of Jupyter notebooks (01_*.ipynb → 10_*.ipynb).")
+    print("Datasets at repo root: bbc_news.csv, tripadvisor_hotel_reviews.csv")
+    print("")
+    print("Quick start:")
+    print("  python -m venv .venv && source .venv/bin/activate")
+    print("  pip install -r requirements.txt")
+    print("  jupyter lab")
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press F9 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    print_project_info()
